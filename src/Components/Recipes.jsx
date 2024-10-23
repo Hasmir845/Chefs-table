@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 
 export default function Recipes({handleCook}) {
@@ -14,7 +15,7 @@ export default function Recipes({handleCook}) {
       <div className=" grid grid-cols-1 md:grid-cols-2 gap-6">
         {
             recipes.map(recipe=>(
-                <div className=" card bg-base-100 w-96 border-2" key={recipe.recipe_name}>
+                <div className=" card bg-base-100 w-[360] border-2" key={recipe.recipe_name}>
   <figure className=" px-8 pt-6">
     <img className=" w-full h-52 rounded-2xl"
       src={recipe.recipe_image}
