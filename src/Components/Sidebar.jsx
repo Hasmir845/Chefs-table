@@ -3,7 +3,7 @@
 
 export default function Sidebar({cook, handleRemove, preparedRecipe, calculateTimeAndCalories, totalTime, totalCalories}) {
   return (
-    <div className=" mb-10 w-[360px] md:w-full lg:w-1/3 border-2 rounded-2xl text-gray-600 p-2 bg-base-100">
+    <div className=" mb-10 w-full md:w-full lg:w-1/3 border-2 rounded-2xl text-gray-600 p-2 bg-base-100">
       
       {/* want to cook table */}
       <div className="">
